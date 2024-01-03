@@ -31,6 +31,12 @@ import total from "../assets/Tổng.png";
 import lineVector from "../assets/Vector 30.png";
 import arrowDown from "../assets/Vector 31.png";
 import checkout_buy from"../assets/checkout-buy.png";
+import blog_post from "../assets/blog posts.png";
+import mar_5 from "../assets/mar 5.png";
+import mar_3 from "../assets/mar 3.png";
+import mar_4 from "../assets/mar 4.png";
+import read_more from "../assets/read more.png";
+import background_product from "../assets/background-product.png";
 
 export default {
     stripes,
@@ -66,4 +72,10 @@ export default {
     lineVector,
     arrowDown,
     checkout_buy,
+    blog_post,
+    mar_3,
+    mar_4,
+    mar_5,
+    read_more,
+    background_product,
 }

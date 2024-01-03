@@ -14,17 +14,17 @@ function App() {
     //hello again new innpro
     <div className="App">
       <ShopContextProvider>
-        <Router>
-          <Navbar />
-          <Routes>
-            <Route path='/' element={<Shop />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/blog' element={<Blog />} />
-            <Route path='/product' element={<Product />} />
-            <Route path='/checkout' element={<Checkout />} />
-          </Routes>
-          <Footer />
-        </Router>
+          <Router>
+            <Navbar />
+            <Routes>
+              <Route path='/' element={<Shop />} />
+              <Route path='/about' element={<About />} />
+              <Route path='/blog' element={<Blog />} />
+              <Route path='/product' element={<Product />} />
+              <Route path='/checkout' element={<Checkout />} />
+            </Routes>
+            <Footer />
+          </Router>
       </ShopContextProvider>
     </div>
   );
