@@ -23,12 +23,6 @@ export const Navbar = () => {
         <div className='logo'>
             <img src={images.logo} alt='Logo'/>
         </div>
-        <div className="search-bar">
-            <input className="search" type="text" placeholder="Tìm kiếm..." />
-            <button>
-                <img className="searchicon" src={images.searchIcon} alt="searchBar" />
-            </button>
-        </div>
         <div className="menu-bar">
             <div><NavLink style={navLinkStyles} to='/'>Trang chủ</NavLink></div>
             <div><NavLink style={navLinkStyles} to='/about'>Về công ty</NavLink></div>

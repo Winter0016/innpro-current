@@ -33,7 +33,7 @@
     width:17vw;
     height:auto;
 }
-.write-form a:hover{
+.write-form button:hover{
     cursor:pointer;
 }
 .write-form button{
@@ -43,4 +43,10 @@
     width:45vw;
     height:35vw;
     margin-top:7vw;
+}
+
+.write-form button{
+    width: fit-content;
+    height: fit-content;
+    border:none;
 }
