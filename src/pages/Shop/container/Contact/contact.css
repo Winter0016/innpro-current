@@ -50,3 +50,7 @@
     height: fit-content;
     border:none;
 }
+.uber{
+    border: solid ;
+    border-color: red;
+}

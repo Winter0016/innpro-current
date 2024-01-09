@@ -3,6 +3,7 @@ import { PRODUCTS } from '../../constants'
 import { ShopContext } from '../../context/shopContext'
 import { CartItem } from './cart-item';
 import "./cart.css";
+import "./cart_reponsive.css";
 
 import { useNavigate } from 'react-router-dom';
 

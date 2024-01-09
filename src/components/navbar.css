@@ -53,7 +53,7 @@
     width: 100%;
     height: 100vh;
     background-color:  rgba(0, 0, 0, 0.8);
-
+    border:solid;
     z-index: 5;
 }
 
@@ -66,10 +66,18 @@
     background-color: gray;
     transition: 5s ease;
 
-    
+    border:solid;
+   
     flex-direction: column;
     z-index: 5;
 }
+
+@media screen and (max-device-width: 480px) {
+    .navbar-cart_area .sidebar{
+        
+        width:75vw;
+    }    
+}  
 
 .navbar-cart_area .sidebar .x1 {
     width: 50px;
@@ -209,4 +217,4 @@
     }
 
 
-}
+} 

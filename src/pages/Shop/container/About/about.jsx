@@ -1,6 +1,7 @@
 import React from 'react'
 import { images } from '../../../../constants'
 import './about.css'
+import './about_reponsive.css'
 
 export const About = () => {
   return (

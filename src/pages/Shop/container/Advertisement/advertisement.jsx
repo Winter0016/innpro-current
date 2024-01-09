@@ -1,6 +1,8 @@
 import React from 'react';
 import images from '../../../../constants/images';
 import './advertisement.css';
+import './advertisement_reponsive.css';
+
 
 export const Advertisement = () => {
   return (

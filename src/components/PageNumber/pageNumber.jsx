@@ -1,5 +1,6 @@
 import React from 'react';
 import './pageNumber.css';
+import './pageNumber_reponsive.css';
 
 export const PageNumber = () => {
   return (

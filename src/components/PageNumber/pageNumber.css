@@ -3,8 +3,10 @@
     align-items: center;
     justify-content: space-between;
     width:40vw;
-    height:3.8vw;
+    height:auto;
     margin-top: 2vw;
+    border:solid;
+
 }
 .page{
     width:11vw;
@@ -14,9 +16,4 @@
     background-color:rgb(255, 253, 253);
     color:black;
     box-shadow: 0 2px 2px 2px rgba(129, 129, 129, 0.514);
-}
-.page:hover{
-    cursor: pointer;
-    background-color: #43CB48;
-    color:white;
 }

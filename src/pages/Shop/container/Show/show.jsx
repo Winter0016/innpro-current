@@ -2,8 +2,8 @@ import React from 'react';
 import { Product } from './product';
 import { PRODUCTS } from '../../../../constants';
 import './show.css';
+import './show_reponsive.css';
 import { PageNumber } from '../../../../components/PageNumber/pageNumber';
-
 export const Show = () => {
   return (
 <>

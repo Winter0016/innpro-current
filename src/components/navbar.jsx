@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import "./navbar.css";
+import "./navbar_reponsive.css"
 import images from '../constants/images';
 import { Cart } from './Cart/cart';
 
