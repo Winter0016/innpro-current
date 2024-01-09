@@ -12,6 +12,9 @@
     width:40vw;
     margin-left:4vw;
     border:solid;
+    border-radius: 30px;
+    border-width: 0.5px;
+    margin-bottom:1vw;
 }
 .input-form{
     margin-bottom:3vw;
@@ -49,8 +52,4 @@
     width: fit-content;
     height: fit-content;
     border:none;
-}
-.uber{
-    border: solid ;
-    border-color: red;
 }

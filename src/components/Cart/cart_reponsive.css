@@ -6,15 +6,21 @@
 
     .cartItem .description{
         font-size: 5vw;
+        display:flex;
+    }
 
+    .countHandler {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .countHandler button{
-        width: 15px;;
+        width: 15vw;
     }
 
     .countHandler input{
-        width: 3vw;
+        width: 15vw;
     }
 
     .countHandler{

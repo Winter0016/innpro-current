@@ -7,9 +7,9 @@
         width:30vw;
         height:10vw;
     }
-    .page:hover{
-        cursor: pointer;
-        background-color: #43CB48;
-        color:white;
-    }
 }  
+.page:hover{
+    cursor: pointer;
+    background-color: #43CB48;
+    color:white;
+}
