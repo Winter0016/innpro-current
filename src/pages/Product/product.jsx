@@ -7,13 +7,13 @@ import "./product.css"
 
 export const Product = () => {
 
-  const {xnumber} = useContext(ShopContext);
-  console.log(`xnumb is ${xnumber}`);
+  const {xname} = useContext(ShopContext);
+  console.log(`xnumb is ${xname}`);
   return (
     <div className='inspect-container'>
       <div className='myproduct-container'>
         {PRODUCTS.map((product) => {
-          if(product.id === xnumber) {
+          if(product.productName === xname) {
             return <Product_item data={product} />
           }
         })} 

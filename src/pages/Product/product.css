@@ -26,3 +26,11 @@
     flex-direction: column;
     align-items: flex-start;
 }
+.hehe2  {
+    border:none;
+    margin-top: 2vw;
+    margin-left : 33vw;
+}
+.hehe2 :hover{
+    cursor: pointer;
+}

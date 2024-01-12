@@ -9,12 +9,13 @@ const getDefaultCart = () => {
   for (let i = 1; i < PRODUCTS.length + 1; i++) {
     cart[i] = 0;
   }
+  console.log(`cart is  ${JSON.stringify(cart)}`);
   return cart;
 };
 
 export const ShopContextProvider = (props) => {
   const [cartItems, setCartItems] = useState(getDefaultCart());
-  const [xnumber, setXnumber] = useState(null); // Preserve xnumber separately
+  const [xname, setxname] = useState(null); // Preserve xnumber separately
 
   const getTotalCartAmount = () => {
     let totalAmount = 0;
@@ -39,9 +40,10 @@ export const ShopContextProvider = (props) => {
     setCartItems((prex) => ({ ...prex, [itemId]: newAmount }));
   };
 
-  const inspect = (numberid) => {
-    console.log(`testing id : ${numberid}`);
-    setXnumber(numberid); // Preserve xnumber when inspecting
+  const inspect = (nameproduct) => {
+    console.log(`testing name : ${nameproduct}`);
+    setxname(nameproduct); // Preserve xnumber when inspecting
+    console.log(`xname : ${xname}`);
   };
 
   const contextValue = {
@@ -51,7 +53,7 @@ export const ShopContextProvider = (props) => {
     updateCartItemAmount,
     getTotalCartAmount,
     inspect,
-    xnumber,
+    xname,
   };
 
   return (

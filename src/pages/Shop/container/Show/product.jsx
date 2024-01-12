@@ -10,7 +10,8 @@ export const Product = (props) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    inspect(id);
+    inspect(productName);
+    console.log(`My productname : ${productName}`);
     navigate('/product');
   };
 
